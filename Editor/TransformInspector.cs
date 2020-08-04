@@ -1,11 +1,11 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace LuviKunG.Editor
+namespace LuviKunG
 {
     [CustomEditor(typeof(Transform))]
     [CanEditMultipleObjects]
-    public class TransformEditor : UnityEditor.Editor
+    public class TransformEditor : Editor
     {
         private const float FIELD_WIDTH = 212.0f;
         private const float POSITION_MAX = 100000.0f;
